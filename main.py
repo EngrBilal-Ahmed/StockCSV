@@ -20,10 +20,12 @@ with open(csv_file, "w", newline="") as file:
 
     for stock in stocks:
         try:
-            data = psxdata.stocks(stock, start=date.today(), end=date.today(), cache=False)
+            #data = psxdata.stocks(stock, start=date.today(), end=date.today(), cache=False)
+            data = psxdata.quote(stock, cache=False)
 
             if not data.empty:
-                price = data.iloc[0]["close"]
+                #price = data.iloc[0]["close"]
+                price = data.iloc[0]["price"]
             else:
                 price = ""
 
