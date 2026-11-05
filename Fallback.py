@@ -4,8 +4,8 @@ import os
 from datetime import date
 
 stocks = [
-    "AVN", "BNL", "BWCL", "DGKC", "EFERT", "ENGROH", "EPQL",
-    "FABL", "FATIMA", "FFC", "GGL", "GLAXO", "HUBC", "LCI",
+    "AVN", "BNL", "CNERGY", "DGKC", "KEL", "PRL", "EPQL",
+    "FABL", "FATIMA", "PTC", "GGL", "GLAXO", "HUBC", "LCI",
     "LOTCHEM", "LUCK", "MEBL", "MLCF", "NATF", "NCPL", "NML",
     "OGDC", "PAEL", "PIBTL", "PSO", "SEARL", "SELECT", "SLM",
     "SNGP", "SSGC", "SYS", "UNITY"
